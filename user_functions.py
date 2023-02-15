@@ -10,3 +10,7 @@ def get_user_name_from_input():
 def get_password_from_input():
     """ Password needs to be at least 8 characters long with at least one number, one special character and one letter. """
     return input("Create your password: ")
+
+
+def power(x,y):
+    return(x**y)
