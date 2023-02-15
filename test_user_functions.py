@@ -17,3 +17,6 @@ def test_email_with_user_input_correct(monkeypatch):
 
 def test_powertwo():
     assert power(2,2)==4
+
+def test_powerthree():
+    assert power(3,3)==4
